@@ -26,3 +26,14 @@ for degree in range(360):
     y = math.sin(radians)
     x_values.append(x)
     y_values.append(y)
+
+# Plots the circle
+    """
+
+    Below, plt.style.use('seaborn-v0_8') utilizes a color for the graph, and then uses plt.subplots() to set up the
+    structure at hand, and ax.plot(x_values, y_values, linewidth=2) will draw the circle in the output.
+
+    """
+plt.style.use('seaborn-v0_8')
+fig, ax = plt.subplots()
+ax.plot(x_values, y_values, linewidth=2)
