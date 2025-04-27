@@ -10,3 +10,19 @@ import matplotlib.pyplot as plt
 
 x_values = []
 y_values = []
+
+# Calculates successive values in a sequence from 360 degrees to range(360)
+# Converts degrees to radians and then puts the math.sin() and math.cos() functions in their respective lists
+
+for degree in range(360):
+    """
+
+    Below deals with converting the x and y list values into radians based on the cos and sin values,
+    before appending the outputs.
+
+    """
+    radians = math.radians(degree)
+    x = math.cos(radians)
+    y = math.sin(radians)
+    x_values.append(x)
+    y_values.append(y)
