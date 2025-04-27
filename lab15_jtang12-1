@@ -43,3 +43,13 @@ ax.plot(x_values, y_values, linewidth=2)
 ax.set_title("Circumference of a Circle", fontsize=24)
 ax.set_xlabel("Cosine", fontsize=14)
 ax.set_ylabel("Sine", fontsize=14)
+
+# Sets an appropriate limit of the x-axis and y-axis
+
+ax.set_xlim(-1.2, 1.2)
+ax.set_ylim(-1.2, 1.2)
+
+# Sets up the scale equally to prevent distortion of the circle
+
+ax.set_aspect('equal', adjustable='box')
+plt.show()
