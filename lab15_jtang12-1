@@ -1,0 +1,12 @@
+# Lab 15: Plot Other Graphs
+# Name: Justin Tang
+# Date: 4/27/2025
+# Relevant Comments: Pretty easy overall for an near-end-of-term lab.
+
+import math
+import matplotlib.pyplot as plt
+
+# Creates two empty lists that will be filled up as we move along
+
+x_values = []
+y_values = []
