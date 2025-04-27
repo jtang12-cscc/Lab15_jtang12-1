@@ -37,3 +37,9 @@ for degree in range(360):
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots()
 ax.plot(x_values, y_values, linewidth=2)
+
+# Sets the title, x-axis, and y-axis
+
+ax.set_title("Circumference of a Circle", fontsize=24)
+ax.set_xlabel("Cosine", fontsize=14)
+ax.set_ylabel("Sine", fontsize=14)
